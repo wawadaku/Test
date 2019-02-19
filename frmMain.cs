@@ -13,7 +13,7 @@ namespace 委托Demo
     {
         //创建委托对象(使用系统带的Action委托)
         public Action<string> act;
-        public frmMain()
+        public frmMain()//主函数
         {
             InitializeComponent();
             //创建从窗体对象
@@ -26,7 +26,7 @@ namespace 委托Demo
             otj1.Show();
             otj2.Show();
         }
-        //private int conter = 0;
+        
         private void btnClick_Click(object sender, EventArgs e)
         {
             //conter++;
