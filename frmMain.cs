@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace 委托Demo
 {
-    public partial class frmMain : Form
+    public partial class frmMain : Form烦烦烦烦烦
     {
         //创建委托对象(使用系统带的Action委托)
         public Action<string> act;
